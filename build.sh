@@ -11,6 +11,8 @@ cd $LOCALPATH
 #git checkout v0.8.3
 
 # 0.8.0
+mkdir coreos
+cd coreos
 git clone https://github.com/poseidon/matchbox.git
 cd matchbox
 git checkout v0.8.0
