@@ -1,9 +1,10 @@
 #!/bin/bash
 
-LOCALPATH=$GOPATH/src
+#LOCALPATH=$GOPATH/src
+LOCALPATH=$TRAVIS_BUILD_DIR/matchbox-0.8.3/bin
 REPO1="/teste/matheus"
 
-cd $LOCALPATH
+#cd $LOCALPATH
 wget https://github.com/poseidon/matchbox/archive/v0.8.3.zip
 unzip v0.8.3.zip
 cd matchbox-0.8.3
