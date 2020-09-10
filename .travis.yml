@@ -1,7 +1,7 @@
 language: go
 os: linux
 arch: ppc64le
-
+dist: bionic
 go: "1.14.x"
 
 install:
