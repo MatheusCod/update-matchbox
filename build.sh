@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LOCALPATH=$GOPATH/src
+#LOCALPATH=$GOPATH/src
 
 wget https://github.com/poseidon/matchbox/archive/v0.8.3.zip
 unzip v0.8.3.zip
