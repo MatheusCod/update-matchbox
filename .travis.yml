@@ -2,10 +2,7 @@ language: go
 os: linux
 arch: ppc64le
 dist: bionic
-go: 
-  - "1.13.4"
-  #- "1.11.7"
-  #- "1.11.1"
+go: "1.14.x"
 
 install:
   - GO111MODULE=off go get golang.org/x/lint/golint
