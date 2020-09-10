@@ -5,19 +5,19 @@ LOCALPATH=$GOPATH/src/github.com
 REPO1="/teste/matheus"
 
 cd $LOCALPATH
+# 0.8.3
+#git clone https://github.com/poseidon/matchbox.git
+#cd matchbox
+#git checkout v0.8.3
+
+# 0.8.0
+#git clone https://github.com/poseidon/matchbox.git
+#cd matchbox
+#git checkout v0.7.1
+
+# 0.7.1
 mkdir coreos
 cd coreos
-#wget https://github.com/poseidon/matchbox/archive/v0.8.3.zip
-git clone https://github.com/poseidon/matchbox.git
-cd matchbox
-git checkout v0.8.3
-
-#wget https://github.com/poseidon/matchbox/archive/v0.8.0.zip
-git clone https://github.com/poseidon/matchbox.git
-cd matchbox
-git checkout v0.7.1
-
-#wget https://github.com/poseidon/matchbox/archive/v0.7.1.zip
 git clone https://github.com/poseidon/matchbox.git
 cd matchbox
 git checkout v0.7.1
@@ -37,10 +37,9 @@ git checkout v0.7.1
 #cd $LOCALPATH
 
 ls
+echo "LS"
 cd matchbox-0.7.1
-echo "Make"
 make
-echo "Fim do make"
 cd bin
 mv matchbox matchbox-0.7.1
 
