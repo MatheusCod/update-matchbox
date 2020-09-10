@@ -7,6 +7,6 @@ go: "1.14.x"
 install:
   - sudo apt update
   - sudo apt install -y lftp unzip zip build-essential tar wget
- 
- script:
+
+script:
   - bash build.sh
