@@ -8,6 +8,7 @@ go:
   #- "1.11.1"
 
 install:
+  - GO111MODULE=off go get golang.org/x/lint/golint
   - sudo apt update
   - sudo apt install -y lftp unzip zip build-essential tar wget
 
