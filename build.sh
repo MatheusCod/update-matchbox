@@ -8,15 +8,19 @@ cd $LOCALPATH
 mkdir coreos
 cd coreos
 #wget https://github.com/poseidon/matchbox/archive/v0.8.3.zip
+git clone https://github.com/poseidon/matchbox.git
+cd matchbox
+git checkout v0.8.3
+
 #wget https://github.com/poseidon/matchbox/archive/v0.8.0.zip
 git clone https://github.com/poseidon/matchbox.git
 cd matchbox
-#git checkout e781502
 git checkout v0.7.1
+
 #wget https://github.com/poseidon/matchbox/archive/v0.7.1.zip
-#unzip v0.8.3.zip
-#unzip v0.8.0.zip
-#unzip v0.7.1.zip
+git clone https://github.com/poseidon/matchbox.git
+cd matchbox
+git checkout v0.7.1
 
 #cd matchbox-0.8.3
 #make
@@ -32,6 +36,7 @@ git checkout v0.7.1
 
 #cd $LOCALPATH
 
+ls
 cd matchbox-0.7.1
 echo "Make"
 make
