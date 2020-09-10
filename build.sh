@@ -2,7 +2,7 @@
 
 #LOCALPATH=$TRAVIS_BUILD_DIR
 LOCALPATH=$GOPATH/src/github.com
-REPO1="/teste/matheus"
+REPO1="/ppc64el/matchbox/"
 
 cd $LOCALPATH
 
