@@ -6,6 +6,8 @@ wget https://github.com/poseidon/matchbox/archive/v0.8.3.zip
 unzip v0.8.3.zip
 cd matchbox-0.8.3
 make
+cd bin/matchbox
+ls
 ./bin/matchbox -version
 
 #wget https://github.com/poseidon/matchbox/archive/v0.8.3.zip
