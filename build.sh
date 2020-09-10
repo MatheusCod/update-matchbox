@@ -8,14 +8,15 @@ cd $LOCALPATH
 echo "Antes"
 ls
 echo "Depois"
-mkdir matchbox
-cd matchbox
 #wget https://github.com/poseidon/matchbox/archive/v0.8.3.zip
 #wget https://github.com/poseidon/matchbox/archive/v0.8.0.zip
-wget https://github.com/poseidon/matchbox/archive/v0.7.1.zip
+git clone https://github.com/poseidon/matchbox.git
+cd matchbox
+git checkout e781502
+#wget https://github.com/poseidon/matchbox/archive/v0.7.1.zip
 #unzip v0.8.3.zip
 #unzip v0.8.0.zip
-unzip v0.7.1.zip
+#unzip v0.7.1.zip
 
 #cd matchbox-0.8.3
 #make
