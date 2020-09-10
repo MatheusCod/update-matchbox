@@ -26,7 +26,7 @@ unzip v0.7.1.zip
 #cd $LOCALPATH
 
 cd matchbox-0.7.1
-make all
+make test
 cd bin
 mv matchbox matchbox-0.7.1
 
