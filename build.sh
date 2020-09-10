@@ -12,7 +12,8 @@ echo "Depois"
 #wget https://github.com/poseidon/matchbox/archive/v0.8.0.zip
 git clone https://github.com/poseidon/matchbox.git
 cd matchbox
-git checkout e781502
+#git checkout e781502
+git checkout v0.7.1
 #wget https://github.com/poseidon/matchbox/archive/v0.7.1.zip
 #unzip v0.8.3.zip
 #unzip v0.8.0.zip
