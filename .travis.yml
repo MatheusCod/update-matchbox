@@ -4,8 +4,8 @@ arch: ppc64le
 dist: bionic
 go: 
   #- "1.13.4"
-  #- "1.11.7"
-  - "1.11.1"
+  - "1.11.7"
+  #- "1.11.1"
 
 install:
   - sudo apt update
