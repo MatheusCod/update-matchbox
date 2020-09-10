@@ -1,4 +1,4 @@
-#!/bin/bash
+
 
 LOCALPATH=$GOPATH/src
 
