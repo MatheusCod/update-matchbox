@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LOCALPATH=$TRAVIS_BUILD_DIR
+#LOCALPATH=$TRAVIS_BUILD_DIR
 LOCALPATH=$GOPATH/src/github.com
 REPO1="/teste/matheus"
 
