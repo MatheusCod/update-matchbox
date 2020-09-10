@@ -1,7 +1,6 @@
 #!/bin/bash
 
 LOCALPATH=$TRAVIS_BUILD_DIR
-LOCALPATH=$GOPATH/src
 REPO1="/teste/matheus"
 
 cd $LOCALPATH
@@ -27,7 +26,7 @@ unzip v0.7.1.zip
 #cd $LOCALPATH
 
 cd matchbox-0.7.1
-make
+make all
 cd bin
 mv matchbox matchbox-0.7.1
 
