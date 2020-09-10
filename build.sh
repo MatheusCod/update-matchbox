@@ -9,7 +9,7 @@ cd $LOCALPATH
 # 0.8.3 - 0.8.2
 git clone https://github.com/poseidon/matchbox.git
 cd matchbox
-#git checkout v0.8.3
+git checkout v0.8.3
 #git checkout v0.8.0
 
 # 0.7.1
