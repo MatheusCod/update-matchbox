@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#LOCALPATH=$GOPATH/src
+LOCALPATH=$GOPATH/src
 
 wget https://github.com/poseidon/matchbox/archive/v0.8.3.zip
 unzip v0.8.3.zip
@@ -8,7 +8,7 @@ cd matchbox-0.8.3
 make
 cd bin
 ls
-./bin/matchbox -version
+./matchbox -version
 
 #wget https://github.com/poseidon/matchbox/archive/v0.8.3.zip
 #wget https://github.com/poseidon/matchbox/archive/v0.8.0.zip
