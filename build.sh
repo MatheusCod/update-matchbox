@@ -16,6 +16,6 @@ make
 #unzip v0.8.0.zip
 #unzip v0.7.1.zip
 
-cd matchbox-0.8.3
-make
-./bin/matchbox -version
+#cd matchbox-0.8.3
+#make
+#./bin/matchbox -version
