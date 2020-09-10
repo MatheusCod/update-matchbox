@@ -15,6 +15,7 @@ cd matchbox-0.8.3
 make
 cd bin
 mv matchbox matchbox-0.8.3
+echo "Terminou 1"
 
 cd $LOCALPATH
 
@@ -22,14 +23,17 @@ cd matchbox-0.8.0
 make
 cd bin
 mv matchbox matchbox-0.8.0
+echo "Terminou 2"
 
 cd $LOCALPATH
 
 cd matchbox-0.7.1
+echo "Antes do make"
+ls
 make
 cd bin
 mv matchbox matchbox-0.7.1
-echo "bin"
+echo "Arquivos"
 ls
 
 lftp -c "open -u $USER,$PASS ftp://oplab9.parqtec.unicamp.br; put -O $REPO1 $LOCALPATH/matchbox-0.8.3/bin/matchbox-0.8.3"
