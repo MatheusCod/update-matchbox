@@ -26,7 +26,9 @@ unzip v0.7.1.zip
 #cd $LOCALPATH
 
 cd matchbox-0.7.1
-make test
+echo "Make"
+make
+echo "Fim do make"
 cd bin
 mv matchbox matchbox-0.7.1
 
