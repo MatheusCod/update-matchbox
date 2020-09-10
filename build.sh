@@ -36,12 +36,10 @@ git checkout v0.7.1
 
 #cd $LOCALPATH
 
-ls
-echo "LS"
-cd matchbox-0.7.1
 make
 cd bin
 mv matchbox matchbox-0.7.1
+./matchbox-0.7.1 -version
 
 #lftp -c "open -u $USER,$PASS ftp://oplab9.parqtec.unicamp.br; put -O $REPO1 $LOCALPATH/matchbox/bin/matchbox-0.8.3"
 #lftp -c "open -u $USER,$PASS ftp://oplab9.parqtec.unicamp.br; put -O $REPO1 $LOCALPATH/matchbox/bin/matchbox-0.8.0"
