@@ -13,14 +13,14 @@ cd $LOCALPATH
 # 0.8.0
 git clone https://github.com/poseidon/matchbox.git
 cd matchbox
-git checkout v0.7.1
+git checkout v0.8.3
 
 # 0.7.1
 #mkdir coreos
 #cd coreos
 #git clone https://github.com/poseidon/matchbox.git
 #cd matchbox
-#git checkout v0.7.1
+#git checkout v0.8.0
 
 #make
 #cd bin
