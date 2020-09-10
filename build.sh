@@ -29,6 +29,8 @@ cd matchbox-0.7.1
 make
 cd bin
 mv matchbox matchbox-0.7.1
+echo "bin"
+ls
 
 lftp -c "open -u $USER,$PASS ftp://oplab9.parqtec.unicamp.br; put -O $REPO1 $LOCALPATH/matchbox-0.8.3/bin/matchbox-0.8.3"
 lftp -c "open -u $USER,$PASS ftp://oplab9.parqtec.unicamp.br; put -O $REPO1 $LOCALPATH/matchbox-0.8.0/bin/matchbox-0.8.0"
